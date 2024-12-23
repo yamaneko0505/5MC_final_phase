@@ -51,10 +51,17 @@
   first second third fourth sixth seventh eighth ninth tenth 
   -->
 
+前回のテキストはこちら
+<br><a href="https://yamaneko0505.github.io/simulation_Gcode/">06　FusionCAMの使い方　シミュレーションとGコードの生成</a><br>
+
+
+  <h2>目次</h2>
+
   <ul>
     <li><a href="#zero-sec">５軸MCの起動</a></li>
     <li><a href="#first-sec">Gコードのアップロード</a></li>
     <li><a href="#second-sec">加工の開始の手順</a></li>
+    <li><a href="#second02-sec">ワーク座標原点の入力</a></li>
     <li><a href="#third-sec">材料のセッティング</a></li>
     <li><a href="#fourth-sec">加工の開始</a></li>
 
@@ -161,6 +168,24 @@
   常にこのメインプログラムを用いて加工を行います。
   <img src="21.jpg" alt="21" width="100%" /><br><br><br>
 
+  <section id="second02-sec">
+  <h2>ワーク座標原点の入力</h2>
+  アップロードしたGコードをメインプログラムに設定できたら、FusionCAMでの作業のときに
+  メモしたワーク座標原点の座標値を加工機本体に入力していきます。<br>
+  まず「OFS/SET」ボタンを押してください。
+  <img src="52.jpg" alt="52" width="100%" /><br><br><br>
+
+  座標系の下のボタンを押してください。
+  <img src="53.jpg" alt="53" width="100%" /><br><br><br>
+
+  そうすると、画面にG54ワーク座標原点の座標を打ち込む欄が出てくるので、
+  矢印ボタンで入力欄を選んで、数字キーでメモした座標を内婚でINPUTボタンで入力してください。<br>
+  G54の座標を入力したらページ送りボタンの下を押すと、Ｇ55以降のワーク座標原点座標の入力欄
+  が出てくるので、メモしておいた値をくれぐれも打ち間違いのないように入力してください。
+  <img src="54.jpg" alt="54" width="100%" /><br>
+  <img src="55.jpg" alt="55" width="100%" /><br>
+  <img src="56.jpg" alt="56" width="100%" /><br><br><br>
+
   <section id="third-sec">
     <h2>材料のセッティング</h2>
   加工の準備は整ったので、削る材料をセットします。おそらくこのような直径25mm程度の円柱型の
@@ -244,6 +269,11 @@
   エラーを吐いたときに赤色のランプが点灯します。また、緊急停止ボタンを押したときも
   赤色のランプが点灯します。
   <img src="26.jpg" alt="26" width="100%" /><br><br><br>
+
+  ここまでこのテキストを見て作業をしてくださった方、本当にお疲れさまでした！本当にありがとうございました！<br>
+  これであなたも５軸マシニングセンタマスターです！どんどんいろんな形状を削っていきましょう！
+  <img src="100.jpg" alt="100" width="100%" /><br><br><br>
+
 
   </p>
 
